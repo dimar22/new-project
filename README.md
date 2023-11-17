@@ -11,7 +11,7 @@ Create new branch and switch in. Use this command for it:
  git checkout -b development
 After working on the project, prepare them for the committee and comment on them:
  git add .
- git commit m "development change file readme"
+ git commit -m "development change file readme"
 Change branch to "main":
  git checkout main
 Merge the changes from the "development" branch into the "main" branch:
