@@ -18,3 +18,8 @@ Merge the changes from the "development" branch into the "main" branch:
  git merge development
  git add .
  git commit -m "done"
+to upload to the repository you need to execute the following commandsЖ
+git remote add origin https://github.com/dimar22/new-project.git       (http of the previously created repository )
+git config --global user.name "name"         (your name at the GitHub)
+git config --global user.mail "e-mail"       (your e-mail at the GitHub)
+git push -u origin main
